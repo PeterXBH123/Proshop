@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.1",
+    "react-bootstrap": "^2.10.2",
+    "react-icons": "^5.0.1"
+  },
+  "name": "2.0.0",
+  "version": "2.0.0",
+  "description": "eCommerce application built with the MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Peter Xie",
+  "license": "MIT"
+}
