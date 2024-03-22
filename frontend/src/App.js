@@ -1,22 +1,20 @@
-import { Container } from "react-bootstrap";
-import React from 'react';
-import Header from "./components/Header"
-import Footer from './components/Footer';
+import { Container } from 'react-bootstrap';
 import { Outlet } from 'react-router-dom';
-import './assets/styles/bootstrap.custom.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
-      <main className="py-3">
+      <main className='py-3'>
         <Container>
           <Outlet />
-          </Container>
+        </Container>
       </main>
       <Footer />
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default App
+export default App;
